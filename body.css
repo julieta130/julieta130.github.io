@@ -1,0 +1,80 @@
+body {
+  font-family: 'Texturina', serif;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.banner {
+    background-color: rgb(78, 8, 87);
+    opacity: 0.5;
+	  background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h1 {
+	color: white;
+	font-size:55px;
+}
+
+.banner h2 {
+	color: white;
+	font-size: 55spx;
+	opacity: 0.6;
+}
+
+.btn-green {
+	color: rgb(0,0,0);
+	background-color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .2s;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-green:hover {
+  background-color:rgb(4, 41, 16);
+  color: white;
+}
+
+.contenedor {
+  width: 900px;
+  margin:60px auto;
+}
+
+.contenedor h2 {
+  color: rgb(106, 20, 117);
+}
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.card-white{
+	background-color: rgb(202, 232, 211);
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    padding: 24px;
+    margin: 8px;
+}
+
+.card-white img {
+  width: 100%;
+  height: 250px;
+}
+
+.card-white h4 {
+   	color: rgb(82, 35, 117);
+   }
+   .card-white p {
+    color: rgb(82, 35, 117);
+   }
+
+.footer {
+	background-color: rgb(89, 49, 107);
+	padding:7px 0px;
+}
+
